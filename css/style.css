@@ -226,10 +226,6 @@ h5 {
     justify-content: space-between;
     padding: 16px 32px 30px 32px;
 }
-.footer,
-.container {
-    align-items: baseline;
-}
 .team__social-link,
 .footer__social-link {
     display: flex;
@@ -291,6 +287,7 @@ h5 {
 }
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 .footer__address-box {
     margin-right: 70px;
@@ -299,7 +296,7 @@ h5 {
     font-size: 14px;
     line-height: 1.714;
     font-style: normal;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .footer__address-text,
 .footer__link-logo {
@@ -319,7 +316,7 @@ h5 {
     color: #ffffff;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
 }
 .footer__social-list-item {
     display: flex;
